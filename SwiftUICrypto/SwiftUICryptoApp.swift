@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct SwiftUICryptoApp: App {
+    
+    @MainActor
+    enum Globals {
+        static let favorites = FavoritesViewModel()
+    }
+    
+    var favorites = Globals.favorites
+    
+//    var favorites = FavoritesViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CryptoTabView()
+                .environmentObject(favorites)
         }
     }
 }

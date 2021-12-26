@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CoinInfoEntity" representedClassName="CoinInfoEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="blockchainSite" optional="YES" attributeType="String"/>
+        <attribute name="blockTime" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="coinDescription" optional="YES" attributeType="String"/>
+        <attribute name="coinID" optional="YES" attributeType="String"/>
+        <attribute name="genesisDate" optional="YES" attributeType="String"/>
+        <attribute name="hashingAlgorithm" optional="YES" attributeType="String"/>
+        <attribute name="homepage" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="officialForum" optional="YES" attributeType="String"/>
+        <attribute name="reddit" optional="YES" attributeType="String"/>
+        <attribute name="symbol" optional="YES" attributeType="String"/>
+        <attribute name="twitter" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CoinInfoEntity" positionX="-63" positionY="-18" width="128" height="224"/>
+    </elements>
+</model>
