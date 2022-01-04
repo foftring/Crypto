@@ -9,3 +9,17 @@ A SwiftUI cryptocurrency price tracker that showcases working with core data, ne
 - Download and parse JSON data from the CoinGecko API
 - MVVM architecture
 - Working with custom graphics and line charts
+
+# Screen Shots
+
+## Home Screen
+<img src="AvailableCoins.png" height = 500>
+
+## Detail View
+<img src="DetailView.png" height = 500>
+
+## Adding to Favorites & Persistance
+<img src ="AddToFavorites.gif" height = 500>
+
+## Favorites View
+<img src="FavoritesScroll.gif" height = 500>
